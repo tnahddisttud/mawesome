@@ -1,0 +1,4 @@
+.env
+.prettierignore
+node_modules
+.git

@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Amaranth&display=swap');
+body {
+  background: #222;
+  color: white;
+  min-height: 100vh;
+}
+h1 {
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  font-size: 5rem;
+  font-weight: lighter;
+}
+.container {
+  font-family: 'Amaranth', sans-serif;
+  padding: 20px;
+  margin: auto;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 30px;
+  text-align: center;
+  background: linear-gradient(145deg, #242424, #1f1f1f);
+  box-shadow: 13px 13px 21px #0f0f0f, -13px -13px 21px #353535;
+}
+.icon {
+  height: 100px;
+  width: 100px;
+  background: #bbe1fa;
+  margin: auto;
+  border-radius: 50%;
+}
+.icon h1 {
+  font-size: 4rem;
+}
+.general-information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.status {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.location {
+  font-size: 2rem;
+  font-weight: normal;
+  margin-top: 10px;
+}
+
+.detail-section {
+  margin: 40px auto 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  border: 2px dotted #777777;
+  border-radius: 12px;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 0;
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.detail.bordered {
+  border-left: 2px dotted #777;
+  border-right: 2px dotted #777;
+}
+
+.detail .title {
+  font-size: 1.2rem;
+  flex-grow: 1;
+  font-weight: bold;
+  color: #777;
+}
+
+.detail .value {
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+.content {
+  padding: 40px;
+  margin-top: 30px;
+}
+.city-search-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-submit {
+  margin-top: 40px;
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  font-size: 1.2rem;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  background: #222222;
+  color: white;
+  box-shadow: 5px 5px 8px #0f0f0f, -5px -5px 8px #353535;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.city {
+  margin-top: 40px;
+  font-size: 1.25rem;
+  font-weight: bolder;
+  outline: none;
+  border: 1px solid #ffffff;
+  border-radius: 30px;
+  padding: 10px 15px;
+  width: 80%;
+}
+
+.pac-item {
+  font-size: 1.25rem;
+  padding: 10px 10px;
+}
+
+.pac-icon {
+  display: none;
+}
+
+.pac-item-query {
+  font-size: 1rem;
+  padding-right: 14px;
+}
+
+@media screen and (max-width: 650px) {
+  .detail-section {
+    display: flex;
+    flex-direction: column;
+    border: none;
+  }
+  .detail.bordered {
+    border: none;
+  }
+}
