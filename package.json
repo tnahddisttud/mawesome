@@ -4,6 +4,7 @@
   "description": "Weather application",
   "main": "index.js",
   "scripts": {
+    "npm start": "npm start"
     "devStart": "nodemon index.js"
   },
   "author": "Siddhant",
