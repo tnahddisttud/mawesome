@@ -1,16 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Amaranth&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Amaranth&family=Fredoka+One&display=swap');
 body {
   background: #222;
   color: white;
   min-height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 h1 {
   font-family: 'Pacifico', cursive;
   text-align: center;
   font-size: 5rem;
   font-weight: lighter;
+  margin: 0;
+  padding-top: 0;
 }
 .container {
+  transform: scale(0.8);
   font-family: 'Amaranth', sans-serif;
   padding: 20px;
   margin: auto;
@@ -24,14 +29,12 @@ h1 {
 .icon {
   height: 100px;
   width: 100px;
-  background: #bbe1fa;
-  margin: auto;
+  background: #2997e0;
+  margin: 5px auto;
   border-radius: 50%;
 }
-.icon h1 {
-  font-size: 4rem;
-}
 .general-information {
+  font-family: 'Fredoka One', cursive;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -85,8 +88,7 @@ h1 {
   margin-top: 20px;
 }
 .content {
-  padding: 40px;
-  margin-top: 30px;
+  padding: 0 40px 40px 40px;
 }
 .city-search-container {
   display: flex;
