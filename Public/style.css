@@ -146,4 +146,7 @@ h1 {
   .detail.bordered {
     border: none;
   }
+  h1 {
+    font-size: 4rem;
+  }
 }
